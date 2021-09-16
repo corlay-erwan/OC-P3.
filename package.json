@@ -1,0 +1,14 @@
+{
+  "name": "oc-pc3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss:./style.css",
+    "sass:watch": "sass ./sass/main.scss:./style.css --watch",
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist":"last 4 versions"
+}

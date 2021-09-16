@@ -1,0 +1,27 @@
+.whitescreen{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:white;
+    z-index: 1;
+    animation: hide 0.5s 2.5s linear forwards;
+    .spinner {
+        border: 10px solid $color-secondary;
+        border-top:10px solid $color-primary;
+        border-bottom:10px solid $color-tertiary;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;      
+        -webkit-animation: spin 1s linear infinite;
+        -o-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+        margin: auto;
+        pointer-events: none;
+        position: absolute;
+        top: 0;left: 0;right: 0;bottom: 0;
+      }
+}

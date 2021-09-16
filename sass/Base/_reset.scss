@@ -1,0 +1,35 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  li {
+    list-style-type: none;
+  }
+  h1{
+    color: rgba(0,0,0,0.20);
+}
+  h2 {
+    margin: 0;
+  }
+  h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  h6 {
+    margin: 0;
+  }
