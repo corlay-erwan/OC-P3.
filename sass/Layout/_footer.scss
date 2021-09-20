@@ -1,4 +1,4 @@
-.footer {
+footer {
     background-color: #353535;
     padding: 25px;
     color: white;
@@ -9,8 +9,9 @@
         font-size: 1.2rem;
         font-weight: 500;
 }
-.ul {
-        list-style-type: none;
+ul {
+        list-style: none;
+
     li {
         padding: 5px 0 5px 0;
         a {
