@@ -13,34 +13,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <!-- Header -->
-<header class="menu__header">
+<header>
+<div class="header">
     <div class="arrow"><a href="../index.html"><i class="fas fa-arrow-left"></i></a></div>
     <h1><a href="../index.html">Ohmyfood</a></h1>
 </header>
 
 <!-- Main -->
-<main class="main">
+<main class="mainmap">
     <div class="headermap__img">
-        <img src="/images/restaurants/menu-delice-sens.jpg" alt="menu delice des sens" title="ohmyfood menu delice des sens">
+        <img src="/images/restaurants/menu-française.jpg" alt="menu a la francaise" title="ohmyfood menu a la francaise">
     </div>
-    <div class="main__menu">
+    <div class="mainmap__menu">
         <div class="menu__title">
             <h2>Le délice des sens</h2>
-            <div class="fill__heart">
-                <span><i class="fill far fa-heart fa-2x"></i></span>
+            <div class="restaurant__block-earth">
+                <svg class="heart heart-full" viewBox="-20 0 550 550" xml:space="preserve">
+                    <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                    c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                    c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                    s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                    C512,93.417,453.532,30,376,30z">
+                    </path>
+                    <defs>
+                        <linearGradient id="text-fill">
+                            <stop offset="0%" stop-color="#9356DC"></stop>
+                            <stop offset="100%" stop-color="#FF79DA"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+                <svg class="heart heart-empty" viewBox="-20 0 550 550" xml:space="preserve">
+                    <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                    c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                    c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                    s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                    C512,93.417,453.532,30,376,30z">
+                    </path>
+
+                    <defs>
+                        <linearGradient>
+                            <stop offset="0%" stop-color="#9356DC"></stop>
+                            <stop offset="100%" stop-color="#FF79DA"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
             </div>
         </div>
-
         <div class="full__menu">
-            <!--Entrées -->
             <div class="starter">
                 <div class="starter__title">
                     <h3>Entrées</h3>
                     <div class="line"></div>
                 </div>
+
+                <!-- Entrées-->
                 <div class="meals">
                     <h4>Tartare de thon</h4>
                     <div class="last__line">
@@ -62,7 +93,7 @@
                     </div>
                 </div>
                 <div class="meals">
-                    <h4>Velouté de cèpes</h4>
+                    <h4>Velouté de cèpes </h4>
                     <div class="last__line">
                         <p>Aux truffes</p>
                         <span><strong>20€</strong></span>
@@ -80,7 +111,7 @@
                     <div class="line"></div>
                 </div>
                 <div class="meals">
-                    <h4>Poulet rôti aux herbes de Provence</h4>
+                    <h4>Poulet rôti aux herbes de Provence </h4>
                     <div class="last__line">
                         <p>Et sa crème de truffe</p>
                         <span><strong>40€</strong></span>
@@ -100,7 +131,7 @@
                     </div>
                 </div>
                 <div class="meals">
-                    <h4>Côte de boeuf Angus</h4>
+                    <h4>Côte de boeuf Angus </h4>
                     <div class="last__line">
                         <p>Et sa purée de panais</p>
                         <span><strong>44€</strong></span>
@@ -120,7 +151,7 @@
                 <div class="meals">
                     <h4>Farandole de desserts</h4>
                     <div class="last__line">
-                        <p>Du chef</p>
+                        <p>Du chefs</p>
                         <span><strong>18€</strong></span>
                     </div>
                     <div class="cross">
@@ -150,10 +181,10 @@
             </div>
         </div>
     </div>
-    <div>
-    <span class="btn__order">
-        <button> Commander </button>
-    </span>
+    <div class=bouton>
+        <span class="btn__order">
+            <button> Commander </button>
+        </span>
     </div>
 </main>
 
@@ -161,7 +192,7 @@
 <!--Footer-->
 <footer>
     <div class="footer">
-    <h3>ohmyfood</h3>
+    <h5>ohmyfood</h5>
     <ul>
         <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
         <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>

@@ -22,26 +22,27 @@
     visibility: hidden;
   }
 }
-.footer {
+footer {
   background-color: #353535;
   padding: 25px;
   color: white;
+  text-align: center;
 }
 
-.h3 {
+h5 {
   font-family: "Shrikhand", "sans-serif";
   padding: 5px 0 20px 0;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
-.ul {
-  list-style-type: none;
+ul {
+  list-style: none;
 }
-.ul li {
+ul li {
   padding: 5px 0 5px 0;
 }
-.ul li a {
+ul li a {
   color: white;
 }
 
@@ -93,11 +94,6 @@
   height: 80px;
   width: 100%;
   background-color: white;
-}
-.header__logo {
-  font-family: "Shrikhand", cursive;
-  margin: 0;
-  color: black;
 }
 .header__arrow {
   position: absolute;
@@ -383,7 +379,6 @@ h4 {
   flex-direction: column;
 }
 
-/*pb au niveau du main avec flexbox*/
 /*HEADER*/
 .headermap__img img {
   object-fit: cover;
@@ -494,7 +489,7 @@ h4 {
 }
 
 .restaurants {
-  width: 1150px;
+  width: 800px;
   margin: 0;
   background: #f6f6f6;
   padding: 20px;
@@ -515,7 +510,6 @@ h4 {
   grid-template-columns: 1fr;
   grid-gap: 20px;
   padding: 20px;
-  width: 1150px;
 }
 .restaurant__card {
   position: relative;
@@ -568,6 +562,7 @@ h4 {
   border-radius: 0 0 20px 20px;
 }
 .restaurant__card__block-info {
+  text-align: center;
   color: black;
   margin-left: 20px;
   font-size: 3em;

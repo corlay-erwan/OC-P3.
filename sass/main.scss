@@ -1,7 +1,7 @@
 @import "./Utils/mixin", "./Utils/variables", "./Utils/animations";
-@import "./layout/footer", "./layout/whitescreen", "./layout/header","./layout/resto",
-"./layout/operation";
-@import "./layout/location", "./layout/hero";
+@import "./Layout/footer", "./Layout/whitescreen", "./Layout/header","./Layout/resto",
+"./Layout/operation";
+@import "./Layout/location", "./Layout/hero";
 @import "./Base/typography";
 
 body {
@@ -37,7 +37,7 @@ padding: 0;
 @include flexbox-center;
 flex-direction: column;
 }
-/*pb au niveau du main avec flexbox*/
+
 
 
 
@@ -146,7 +146,7 @@ flex-direction: column;
 
 
 .restaurants {
-    width: 1150px;
+    width: 800px;
 margin: 0;
 background: #f6f6f6;
 padding: 20px;
@@ -166,7 +166,6 @@ align-items: flex-start;
         grid-template-columns: 1fr;
         grid-gap: 20px;
         padding: 20px;
-        width: 1150px;
     }
     &__card {
         position: relative;
@@ -214,6 +213,7 @@ align-items: flex-start;
         height: 90px;
         border-radius: 0 0 20px 20px;
         &-info {
+            text-align: center;
             color: black;
             margin-left: 20px;
             font-size: 3em;
