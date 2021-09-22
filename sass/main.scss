@@ -2,7 +2,7 @@
 @import "./Layout/footer", "./Layout/whitescreen", "./Layout/header","./Layout/resto",
 "./Layout/operation";
 @import "./Layout/location", "./Layout/hero";
-@import "./Base/typography";
+@import "./Base/reset";
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -66,6 +66,12 @@ flex-direction: column;
     align-items: center;
     padding: 10px;
 }
+.line{
+    width: 40px;
+    border: 2px solid $color-tertiary;
+    margin-left: 10px;
+
+}
 
 
 .hero {
@@ -85,7 +91,7 @@ flex-direction: column;
         text-align: center;
     }
     &__button {
-    width:200px;
+    width:300px;
     margin: auto;
     @include flexbox-center();
     @include button-style;
@@ -260,12 +266,12 @@ align-items: flex-start;
 }
 
 .meals{
-    height: 60px;
+    height: auto;
     width: 380px;
     background-color: #fff;
     border-radius: 15px;
     margin: 10px;
-    padding: 10px;
+    padding: 7px;
     box-shadow: 4px 4px 6px #aaa;
     position: relative;
     cursor: pointer;
@@ -289,7 +295,7 @@ align-items: flex-start;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #99E2D0;
+    background-color: $color-tertiary;
     width: 50px;
     height: 63px;
     border-top-right-radius: 15px;

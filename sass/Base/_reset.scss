@@ -16,7 +16,8 @@ body {
     list-style-type: none;
   }
   h1{
-    color: rgba(0,0,0,0.20);
+    color: black;
+    font-family: Shrikhand, Roboto, sans-serif;
 }
   h2 {
     margin: 0;
@@ -30,6 +31,19 @@ body {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+h4{
+  margin:0;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Shrikhand", "sans-serif";
+  padding: 5px 0 5px 0;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
   h6 {
     margin: 0;
   }

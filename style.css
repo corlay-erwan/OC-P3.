@@ -29,13 +29,6 @@ footer {
   text-align: center;
 }
 
-h5 {
-  font-family: "Shrikhand", "sans-serif";
-  padding: 5px 0 20px 0;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
 ul {
   list-style: none;
 }
@@ -98,6 +91,10 @@ ul li a {
 .header__arrow {
   position: absolute;
   left: 20px;
+}
+
+.menu__header {
+  padding-right: 300px;
 }
 
 .restaurants {
@@ -177,6 +174,7 @@ ul li a {
 .restaurant__card__block-info {
   color: black;
   margin-left: 20px;
+  width: 200px;
 }
 .restaurant__card__block-info > :first-child {
   font-weight: 700;
@@ -192,20 +190,20 @@ ul li a {
   color: rgba(0, 0, 0, 0.2);
 }
 .restaurant__card .heart {
-  width: 30px;
+  width: 20px;
   stroke-width: 30;
   stroke: black;
   fill: white;
   cursor: pointer;
 }
 .restaurant__card .heart-full {
-  width: 30px;
+  width: 20px;
   position: absolute;
   fill: url(#text-fill);
   stroke: none;
 }
 .restaurant__card .heart-empty {
-  width: 30px;
+  width: 20px;
   position: relative;
 }
 .restaurant__card .heart-empty:hover {
@@ -217,6 +215,22 @@ ul li a {
   width: 100%;
 }
 
+.restaurant__block-info {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.restaurant__block-city {
+  padding-top: 10px;
+}
+
+/*
+.restaurant__block-earth{
+	width: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}*/
 .operation {
   margin-bottom: 50px;
 }
@@ -334,12 +348,60 @@ ul li a {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
-h1, h6 {
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  color: black;
   font-family: Shrikhand, Roboto, sans-serif;
 }
 
-body, html {
-  font-family: "Roboto", sans-serif;
+h2 {
+  margin: 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Shrikhand", "sans-serif";
+  padding: 5px 0 5px 0;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
 }
 
 body {
@@ -401,6 +463,12 @@ h4 {
   padding: 10px;
 }
 
+.line {
+  width: 40px;
+  border: 2px solid #99E2D0;
+  margin-left: 10px;
+}
+
 .hero {
   background: #fafafa;
   width: 100%;
@@ -421,7 +489,7 @@ h4 {
   text-align: center;
 }
 .hero__button {
-  width: 200px;
+  width: 300px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -610,12 +678,12 @@ h4 {
 }
 
 .meals {
-  height: 60px;
+  height: auto;
   width: 380px;
   background-color: #fff;
   border-radius: 15px;
   margin: 10px;
-  padding: 10px;
+  padding: 7px;
   box-shadow: 4px 4px 6px #aaa;
   position: relative;
   cursor: pointer;
