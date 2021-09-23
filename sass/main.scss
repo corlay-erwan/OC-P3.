@@ -226,7 +226,7 @@ align-items: flex-start;
             font-size: 3em;
             font: small-caps bold 24px/1 sans-serif;
             & > :first-child {
-            font-weight: 700;
+                font-weight: 700;
             }
         }
         &-earth {
@@ -235,6 +235,7 @@ align-items: flex-start;
         width: 30px;
         }
     }
+}
 .heart {
         width: 30px;
         stroke-width: 30;
@@ -257,12 +258,21 @@ align-items: flex-start;
         }
     }
 }
-}
+
 .full__menu{
     display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+}
+
+.main__menu {
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
 }
 
 .meals{
