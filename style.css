@@ -225,12 +225,12 @@ ul li a {
   padding-top: 10px;
 }
 
-/*
-.restaurant__block-earth{
-	width: 40px;
-	display: flex;
-	flex-wrap: wrap;
-}*/
+.restaurant__block-earth {
+  width: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .operation {
   margin-bottom: 50px;
 }
@@ -375,6 +375,7 @@ h1 {
 
 h2 {
   margin: 0;
+  text-align: center;
 }
 
 h3 {
@@ -648,24 +649,24 @@ h4 {
   margin-right: 20px;
   width: 30px;
 }
-.restaurant__card .heart {
+.restaurant .heart {
   width: 30px;
   stroke-width: 30;
   stroke: black;
   fill: white;
   cursor: pointer;
 }
-.restaurant__card .heart-full {
+.restaurant .heart-full {
   position: absolute;
   fill: url(#text-fill);
   stroke: none;
   width: 50px;
 }
-.restaurant__card .heart-empty {
+.restaurant .heart-empty {
   width: 50px;
   position: relative;
 }
-.restaurant__card .heart-empty:hover {
+.restaurant .heart-empty:hover {
   opacity: 0;
   transition: 0.5s;
 }
@@ -675,6 +676,15 @@ h4 {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main__menu {
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
 }
 
 .meals {
