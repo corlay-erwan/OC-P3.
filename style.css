@@ -24,15 +24,11 @@
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    translate: transformY(-600);
-  }
-  50% {
-    opacity: 0.5;
-    translate: transformY(-500);
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;
-    translate: transformY(-200);
+    transform: translateY(0px);
   }
 }
 footer {
@@ -423,6 +419,33 @@ ul li a {
 @media screen and (min-width: 1280px) {
   .last__line {
     padding-right: 20px;
+  }
+}
+
+.starter {
+  animation: fadeIn 3s ease-in-out;
+}
+@media screen and (min-width: 1280px) {
+  .starter {
+    width: 400px;
+  }
+}
+
+.dish {
+  animation: fadeIn 6s ease-in-out;
+}
+@media screen and (min-width: 1280px) {
+  .dish {
+    width: 400px;
+  }
+}
+
+.dessert {
+  animation: fadeIn 9s ease-in-out;
+}
+@media screen and (min-width: 1280px) {
+  .dessert {
+    width: 400px;
   }
 }
 

@@ -103,3 +103,21 @@
         padding-right: 20px;
     }
 }
+.starter {
+    animation: fadeIn 3s ease-in-out;
+    @include desktop {
+    width: 400px;
+    }
+}
+.dish {
+    animation: fadeIn 6s ease-in-out;
+    @include desktop {
+    width: 400px;
+    }
+}
+.dessert {
+    animation: fadeIn 9s ease-in-out;
+    @include desktop {
+    width: 400px;
+    }
+}
