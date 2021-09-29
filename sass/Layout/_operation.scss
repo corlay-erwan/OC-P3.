@@ -41,10 +41,10 @@
 	background: #f2eafb;
 }
 .operation__steps li:hover .fas {
-	color: #9356dc;
+	color: $color-primary;
 }
 .operation__steps--number {
-	background-color: #9356dc;
+	background-color: $color-primary;
 	color: white;
 	border-radius: 50%;
 	padding: 5px 9px;

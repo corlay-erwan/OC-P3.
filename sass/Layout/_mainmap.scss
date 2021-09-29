@@ -13,6 +13,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    @include desktop {
+        padding: 10px 90px;
+    }
 }
 
 .line{
@@ -21,7 +24,7 @@
     margin-left: 10px;
 
 }
-.main__menu {
+.mainmap__menu {
     background-color: #f6f6f6;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -31,7 +34,7 @@
 }
 .meals{
     height: auto;
-    width: 380px;
+    width: auto;
     background-color: #fff;
     border-radius: 15px;
     margin: 10px;
@@ -57,8 +60,10 @@
 .full__menu{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    animation: fadeIn 3s;
 }
 .cross{
     display: flex;
@@ -94,4 +99,7 @@
     justify-content: space-between;
     align-items: center;
     line-height: 1.5em;
+    @include desktop {
+        padding-right: 20px;
+    }
 }
