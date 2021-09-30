@@ -7,7 +7,7 @@
 }
 
 .menu__title {
-    width: 1350px;
+    width: auto;
     font-family: Shrikhand, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,7 @@
     @include desktop {
         padding: 10px 90px;
     }
+    
 }
 
 .line{
