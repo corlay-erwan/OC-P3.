@@ -104,19 +104,19 @@
     }
 }
 .starter {
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
     @include desktop {
     width: 400px;
     }
 }
 .dish {
-    animation: fadeIn 6s ease-in-out;
+    animation: fadeIn 4s ease-in-out;
     @include desktop {
     width: 400px;
     }
 }
 .dessert {
-    animation: fadeIn 9s ease-in-out;
+    animation: fadeIn 6s ease-in-out;
     @include desktop {
     width: 400px;
     }
