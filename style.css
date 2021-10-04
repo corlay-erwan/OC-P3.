@@ -134,11 +134,10 @@ ul li a {
   height: auto;
   margin: 30px auto;
   display: grid;
-  grid-template-columns: repeat(autofill, 190px);
+  grid-template-columns: repeat(auto-fill, 400px);
   grid-gap: 20px;
   padding: 20px;
   justify-content: center;
-  border: 1px solid black;
 }
 .restaurant__card {
   position: relative;
