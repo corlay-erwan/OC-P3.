@@ -19,6 +19,10 @@
         margin: auto;
         @include flexbox-center();
         @include button-style;
+        @include tablet{
+            width:150px;
+            align-items: center;
+        }
         &:hover {
             @include button-hover;
         }

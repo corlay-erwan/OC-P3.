@@ -2,12 +2,20 @@
   flex-direction: row;
   padding: 55px 20px 45px 20px;
   width: 80%;
+  @include desktop{
+    padding: 0;
+  }
   &__title {
     padding:auto
   }
   &__card {
     height: 100px;
     width: 300px;
+    @include desktop{
+      width: 200px;
+      height: 70px;
+      align-items: center;
+    }
     display: flex;
     align-items: center;
     background-color: #f6f6f6;
@@ -40,9 +48,13 @@
       color: $color-primary;
     }   
     }
-  } 
+} 
 .container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+  }
 }
