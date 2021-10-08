@@ -75,8 +75,6 @@ ul li a {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  -webkit-animation: spin 1s linear infinite;
-  -o-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
   margin: auto;
   pointer-events: none;
@@ -442,9 +440,7 @@ ul li a {
     padding: 0;
   }
 }
-.tuto__title {
-  padding: auto;
-}
+
 .tuto__card {
   height: 100px;
   width: 300px;
