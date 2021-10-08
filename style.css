@@ -198,7 +198,7 @@ ul li a {
 .restaurant__card__block-info > :first-child {
   font-weight: 700;
 }
-.restaurant__card__block-hearth {
+.restaurant__card__block-earth {
   display: flex;
   justify-content: center;
   align-items: center;
